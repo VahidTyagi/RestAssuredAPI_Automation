@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="files.DynamicJson" time="4.436" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\vahid.tyagi-ns\REST_API_Automation\RestApiAutomation1\target\test-classes;C:\Users\vahid.tyagi-ns\REST_API_Automation\RestApiAutomation1\target\classes;C:\Users\vahid.tyagi-ns\.m2\repository\io\rest-assured\rest-assured\5.5.6\rest-assured-5.5.6.jar;C:\Users\vahid.tyagi-ns\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\vahid.tyagi-ns\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\vahid.tyagi-ns\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\vahid.tyagi-ns\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\vahid.tyagi-ns\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\vahid.tyagi-ns\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\vahid.tyagi-ns\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\vahid.tyagi-ns\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\vahid.tyagi-ns\.m2\repository\io\rest-assured\json-path\5.5.6\json-path-5.5.6.jar;C:\Users\vahid.tyagi-ns\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\vahid.tyagi-ns\.m2\repository\io\rest-assured\rest-assured-common\5.5.6\rest-assured-common-5.5.6.jar;C:\Users\vahid.tyagi-ns\.m2\repository\io\rest-assured\xml-path\5.5.6\xml-path-5.5.6.jar;C:\Users\vahid.tyagi-ns\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\vahid.tyagi-ns\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\vahid.tyagi-ns\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\vahid.tyagi-ns\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\vahid.tyagi-ns\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\vahid.tyagi-ns\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\vahid.tyagi-ns\AppData\Local\Temp\surefire3120733861435012412\surefirebooter-20260311172144895_3.jar C:\Users\vahid.tyagi-ns\AppData\Local\Temp\surefire3120733861435012412 2026-03-11T17-21-44_688-jvmRun1 surefire-20260311172144895_1tmp surefire_0-20260311172144895_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="files.DynamicJson"/>
+    <property name="surefire.test.class.path" value="C:\Users\vahid.tyagi-ns\REST_API_Automation\RestApiAutomation1\target\test-classes;C:\Users\vahid.tyagi-ns\REST_API_Automation\RestApiAutomation1\target\classes;C:\Users\vahid.tyagi-ns\.m2\repository\io\rest-assured\rest-assured\5.5.6\rest-assured-5.5.6.jar;C:\Users\vahid.tyagi-ns\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\vahid.tyagi-ns\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\vahid.tyagi-ns\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\vahid.tyagi-ns\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\vahid.tyagi-ns\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\vahid.tyagi-ns\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\vahid.tyagi-ns\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\vahid.tyagi-ns\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\vahid.tyagi-ns\.m2\repository\io\rest-assured\json-path\5.5.6\json-path-5.5.6.jar;C:\Users\vahid.tyagi-ns\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\vahid.tyagi-ns\.m2\repository\io\rest-assured\rest-assured-common\5.5.6\rest-assured-common-5.5.6.jar;C:\Users\vahid.tyagi-ns\.m2\repository\io\rest-assured\xml-path\5.5.6\xml-path-5.5.6.jar;C:\Users\vahid.tyagi-ns\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\vahid.tyagi-ns\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\vahid.tyagi-ns\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\vahid.tyagi-ns\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\vahid.tyagi-ns\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\vahid.tyagi-ns\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\vahid.tyagi-ns"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="C:\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\vahid.tyagi-ns\REST_API_Automation\RestApiAutomation1"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\vahid.tyagi-ns\AppData\Local\Temp\surefire3120733861435012412\surefirebooter-20260311172144895_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.8+9-LTS"/>
+    <property name="user.name" value="vahid.tyagi-ns"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.8+9"/>
+    <property name="localRepository" value="C:\Users\vahid.tyagi-ns\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\VAHID~1.TYA\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.8"/>
+    <property name="user.dir" value="C:\Users\vahid.tyagi-ns\REST_API_Automation\RestApiAutomation1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412/jre/bin/server;C:/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412/jre/bin;C:\maven\apache-maven-3.9.11\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\CheckPoint\Endpoint Security\Endpoint Common\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-21\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.2.5\bin;C:\Users\vahid.tyagi-ns\AppData\Local\Microsoft\WindowsApps;C:\Users\vahid.tyagi-ns\AppData\Roaming\npm;C:\Users\vahid.tyagi-ns\AppData\Local\Programs\Git\cmd;C:\Users\vahid.tyagi-ns\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vahid.tyagi-ns\AppData\Local\Programs\cursor\resources\app\bin;C:\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.8+9-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="addBook[IFBN1001, Java Automation20](1)" classname="files.DynamicJson" time="3.371">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://216.10.245.166/Library/Addbook.php
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Learn Appium Automation with Java",
+    "isbn": "IFBN1001",
+    "aisle": "Java Automation20",
+    "author": "John foer"
+}
+HTTP/1.1 200 OK
+Date: Wed, 11 Mar 2026 11:51:47 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "Msg": "successfully added",
+    "ID": "IFBN1001Java Automation20"
+}
+ADD Response: {"Msg":"successfully added","ID":"IFBN1001Java Automation20"}
+Added Book ID: IFBN1001Java Automation20
+Request method:	POST
+Request URI:	http://216.10.245.166/Library/DeleteBook.php
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "ID": "IFBN1001Java Automation20"
+}
+HTTP/1.1 404 Not Found
+Date: Wed, 11 Mar 2026 11:51:48 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "msg": "Delete Book operation failed, looks like the book doesnt exists"
+}
+Delete Response: {"msg":"Delete Book operation failed, looks like the book doesnt exists"}
+Deleted Book ID: IFBN1001Java Automation20
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="addBook[IFBN1010, Rust Automation20](2)" classname="files.DynamicJson" time="0.487">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://216.10.245.166/Library/Addbook.php
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Learn Appium Automation with Java",
+    "isbn": "IFBN1010",
+    "aisle": "Rust Automation20",
+    "author": "John foer"
+}
+HTTP/1.1 200 OK
+Date: Wed, 11 Mar 2026 11:51:48 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "Msg": "successfully added",
+    "ID": "IFBN1010Rust Automation20"
+}
+ADD Response: {"Msg":"successfully added","ID":"IFBN1010Rust Automation20"}
+Added Book ID: IFBN1010Rust Automation20
+Request method:	POST
+Request URI:	http://216.10.245.166/Library/DeleteBook.php
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "ID": "IFBN1010Rust Automation20"
+}
+HTTP/1.1 404 Not Found
+Date: Wed, 11 Mar 2026 11:51:48 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "msg": "Delete Book operation failed, looks like the book doesnt exists"
+}
+Delete Response: {"msg":"Delete Book operation failed, looks like the book doesnt exists"}
+Deleted Book ID: IFBN1010Rust Automation20
+]]></system-out>
+  </testcase>
+</testsuite>
